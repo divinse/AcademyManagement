@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <style type="text/css">
+  h1{
+    text-align: center;
+    color:white;
+    padding: 20px;
+    }
+    .loginform{
+        width: 282px;
+        overflow: hidden;
+        margin: auto;
+        margin: 20 0 0 450px;
+        padding: 80px;
+        background:white;
+        opacity: 0.8;
+        border-radius: 15px ;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      }
+      .loginerr{
+      margin: auto;
+      padding: 20px;
+        width: 282px;
+        height:30px;
+        background:white;
+        opacity: 0.8;
+        border-radius: 15px ;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      }
+      .loginfld{
+      text-align: center;
+      border-radius: 20px ;
+      width: 252px;
+      height: 30px;
+      margin: 5 0 0 40px;
+      color:black;
+      }
+      .loginfld#placeholder{
+      text-align: center;
+      color:black;
+      }
+      body{
+      background-image:url("bg.jpg");
+      
+      }
+  </style>
+</head>
+
+<body>
+  <main id="main-holder">
+    <h1 id="login-header">Administrator Login</h1>
+    
+
+    
+    <form class="loginform" action="login" method="post">
+      <input class="loginfld" type="text" name="username" id="username-field" class="login-form-field" placeholder="Username"><br/><br/>
+      <input class="loginfld" type="password" name="password" id="password-field" class="login-form-field" placeholder="Password"><br/><br/>
+      <input class="loginfld" type="submit" value="Login" id="login-form-submit"><br/>
+    </form>
+  
+  </main>
+  <center>
+  </br>
+  </br>
+  </br>
+  <p style='color:white;'>
+  Developer details:</br>
+  Name : Divin Kumar</br>
+  Email : divinkumarse@gmail.com</br>
+  </p>
+  </center>
+</body>
+
+</html>
